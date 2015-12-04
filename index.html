@@ -1308,7 +1308,7 @@ public List&lt;FirebaseItem&gt; list() {
                 <p>Käytännössä URIt näyttävät seuraavilta:</p>
 
                 <pre>
-protokolla://isäntäkone[:portti]/polku/../[kohdedokumentti[.paate]][?parametri=arvo&amp;toinen=arvo][#ankkuri]
+protokolla://isäntäkone[:portti]/polku/../[kohdedokumentti[.pääte]][?parametri=arvo&amp;toinen=arvo][#ankkuri]
                 </pre>
 
                 <p>
@@ -1318,7 +1318,7 @@ protokolla://isäntäkone[:portti]/polku/../[kohdedokumentti[.paate]][?parametri
                     <li>portti: portti isäntäkoneella johon yhteys luodaan. HTTP-palvelimien oletusportti on 80. Jos palvelin käyttää eri porttinumeroa kuin 80, tulee se merkitä osoitteeseen. Portti käytännössä määrittelee prosessin eli sovelluksen, johon yritetään ottaa yhteyttä.</li>
                     <li>polku: periaatteessa polku resurssiin palvelimella. Käytännössä (nykyään) myös palvelun osoite, johon palvelin osaa osoittaa. Usein palvelut toimivat erillisessä koneessa sisäverkossa, ja ulkoverkkoon näkyvä kone vain toimii ohjaajana eli proxynä oikeaan palveluun.</li>
                     <li>kohdedokumentti: haettava resurssi, jos kohdedokumenttia ei ole määritelty palvelin päättelee oletusdokumentin. Usein index.html</li>
-		    <li>.paate: resurssiin liittyvä tiedostotyyppi, ei pakollinen. Esimerkiksi .html</li>
+		    <li>.pääte: resurssiin liittyvä tiedostotyyppi, ei pakollinen. Esimerkiksi .html</li>
                     <li>kyselyparametrit: koostuu avain-arvo -pareista, joiden avulla palvelimelle pystyy toteuttamaan lisätoiminnallisuutta. Kuhunkin avaimeen liittyvä arvo esitetään = -merkillä, avain-arvo -parit erotetaan toisistaan &-merkillä.</li>
                     <li>ankkuri: kertoo mihin kohtaan dokumentissa tulee mennä.</li>
                   </ul>
